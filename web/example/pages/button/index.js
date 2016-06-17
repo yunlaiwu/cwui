@@ -13,17 +13,24 @@ export default class ButtonDemo extends React.Component{
   render(){
     return (
       <Page className="button" title="Button" spacing>
-        <Button>按钮</Button>
-        <Button disabled>按钮</Button>
-        <Button type="default">按钮</Button>
-        <Button type="default" disabled>按钮</Button>
-
-        <div className="button_sp_area">
-          <Button type="primary" plain>按钮</Button>
-          <Button type="default" plain>按钮</Button>
-
-          <Button type="small">按钮</Button>
-          <Button type="default" size="small">按钮</Button>
+        <div className="cwui_btn_area">
+          <Button>登录</Button>
+          <Button disabled>登录</Button>
+        </div>
+        <div className="cwui_btn_area_inline">
+          <Button type="middle">确定</Button>
+          <Button type="middle">取消</Button>
+        </div>
+        <div className="cwui_btn_area_inline">
+          <Button type="small">投资人</Button>
+          <Button type="small">制片人</Button>
+        </div>
+        <div className="cwui_btn_area_inline">
+          <Button type="mini">选择角色</Button>
+          <Button type="mini">戏剧作品</Button>
+        </div>
+        <div className="cwui_btn_area_inline">
+          <Button type="micro">+ 关注</Button>
         </div>
       </Page>
     );

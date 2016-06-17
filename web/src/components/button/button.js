@@ -5,6 +5,7 @@
 
  import React from 'react';
  import classNames from 'classnames';
+ import './button.less';
 
  export default class Button extends React.Component {
      static propTypes = {
@@ -23,19 +24,16 @@
          const {type, size, disabled, plain, className, children, ...others} = this.props;
          const Component = this.props.href ? 'a' : 'button';
          const cls = classNames({
-             weui_btn: true,
+             cwui_btn: true,
 
-             weui_btn_primary: type === 'primary' && !plain,
-             weui_btn_default: type === 'default' && !plain,
-             weui_btn_warn: type === 'warn',
-
-             weui_btn_plain_primary: type === 'primary' && plain,
-
-             weui_btn_plain_default: type === 'default' && plain,
-
-             weui_btn_mini: size === 'small',
-
-             weui_btn_disabled: disabled,
+             cwui_btn_primary: type === 'primary' && !plain,
+             cwui_btn_default: type === 'default' && !plain,
+             cwui_btn_warn: type === 'warn',
+             cwui_btn_middle: type === 'middle' && !plain,
+             cwui_btn_small: type === 'small' && !plain,
+             cwui_btn_mini: type === 'mini' && !plain,
+             cwui_btn_micro: type === 'micro' && !plain,
+             cwui_btn_disabled: disabled,
 
              [className]: className
          });

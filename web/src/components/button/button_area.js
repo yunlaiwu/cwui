@@ -8,13 +8,13 @@ import classNames from 'classnames';
 
 export default class ButtonArea extends React.Component {
 
-  // static propTypes = {
-  //   direction: React.PropTypes.string
-  // };
+  static propTypes = {
+    direction: React.PropTypes.string
+  };
 
-  // static defaultProps = {
-  //   direction: 'vertical'
-  // };
+  static defaultProps = {
+    direction: 'vertical'
+  };
 
   render() {
     const {direction, children} = this.props;

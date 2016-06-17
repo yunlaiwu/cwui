@@ -1,15 +1,15 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish', './' ]
 2 info using npm@3.9.5
 3 info using node@v4.3.0
-4 verbose publish [ '.' ]
-5 silly cache add args [ '.', null ]
-6 verbose cache add spec .
+4 verbose publish [ './' ]
+5 silly cache add args [ './', null ]
+6 verbose cache add spec ./
 7 silly cache add parsed spec Result {
-7 silly cache add   raw: '.',
+7 silly cache add   raw: './',
 7 silly cache add   scope: null,
 7 silly cache add   name: null,
-7 silly cache add   rawSpec: '.',
+7 silly cache add   rawSpec: './',
 7 silly cache add   spec: '/yunlaiwu/cwui',
 7 silly cache add   type: 'local' }
 8 error addLocal Could not install /yunlaiwu/cwui
@@ -17,7 +17,7 @@
 9 verbose stack     at Error (native)
 10 verbose cwd /yunlaiwu/cwui
 11 error Darwin 15.4.0
-12 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+12 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish" "./"
 13 error node v4.3.0
 14 error npm  v3.9.5
 15 error code EISDIR
