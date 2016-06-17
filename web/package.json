@@ -1,6 +1,6 @@
 {
     "name": "react-cwui",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "cwui for react",
     "main": "./lib",
     "scripts": {
