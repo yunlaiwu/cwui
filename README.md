@@ -5,7 +5,7 @@ cwui 云莱坞UI规范
 
 cwui是云莱坞移动端基础样式库，以下像素均以iphone6/6s（750）为基准，基础组件包含`fonts`、`colors`、`button`、`cell`、`article`、`icons`、`tab`等。
 
-[https://github.com/yunlaiwu/cwui](https://github.com/yunlaiwu/cwui)(TODO)
+[https://github.com/yunlaiwu/cwui](https://github.com/yunlaiwu/cwui)
 
 ### fonts
 | 环境        | 语言           | 字体  |
