@@ -38,7 +38,7 @@ cwui是云莱坞移动端基础样式库，以下像素均以iphone6/6s（750）
     font-size: 32px;
 }
 ```
-![full-width](http://ac-2eYaD9YT.clouddn.com/fdcfc26a56ee2863dac0.png)
+![full-width](http://ac-2eYaD9YT.clouddn.com/fdcfc26a56ee2863dac0.png)  
 2. middle:
 ``` css
 .btn.middle{
